@@ -1,0 +1,6 @@
+c:\users\ken\documents\visual studio 2012\Projects\Algos\Algos\bin\Debug\Algos.exe.config
+c:\users\ken\documents\visual studio 2012\Projects\Algos\Algos\bin\Debug\Algos.exe
+c:\users\ken\documents\visual studio 2012\Projects\Algos\Algos\bin\Debug\Algos.pdb
+c:\users\ken\documents\visual studio 2012\Projects\Algos\Algos\obj\Debug\Algos.csprojResolveAssemblyReference.cache
+c:\users\ken\documents\visual studio 2012\Projects\Algos\Algos\obj\Debug\Algos.exe
+c:\users\ken\documents\visual studio 2012\Projects\Algos\Algos\obj\Debug\Algos.pdb

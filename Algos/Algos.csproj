@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2653426C-625B-4173-A67F-1E2C13CC7C24}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Algos</RootNamespace>
+    <AssemblyName>Algos</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Amazon\Amazon2.cs" />
+    <Compile Include="Amazon\SocialNetworkCourses.cs" />
+    <Compile Include="BinarySearchTree.cs" />
+    <Compile Include="BinarySearchTree2.cs" />
+    <Compile Include="BinaryTree.cs" />
+    <Compile Include="BitManipulations.cs" />
+    <Compile Include="Chap 9\CountWays.cs" />
+    <Compile Include="Chap 9\GetSubsets.cs" />
+    <Compile Include="Graph\Maze.cs" />
+    <Compile Include="DP\KnapSackDP.cs" />
+    <Compile Include="DP\PriceLengthDP.cs" />
+    <Compile Include="Graph\Pair.cs" />
+    <Compile Include="Graph\StringTransformation.cs" />
+    <Compile Include="PimcoTest\IObjectTest.cs" />
+    <Compile Include="PimcoTest\Item.cs" />
+    <Compile Include="KnapSack\KnapSack.cs" />
+    <Compile Include="PimcoTest\FilteringEnumerator.cs" />
+    <Compile Include="PowerSet.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Sorting\HeapSort.cs" />
+    <Compile Include="InplaceSwap.cs" />
+    <Compile Include="InsertionSort.cs" />
+    <Compile Include="ProgramMaze.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuickSort.cs" />
+    <Compile Include="Sorting\HumanTower.cs" />
+    <Compile Include="Sorting\InsertionSort.cs" />
+    <Compile Include="Sorting\MergeSort.cs" />
+    <Compile Include="Sorting\QuickSort.cs" />
+    <Compile Include="Sorting\SelectionSort.cs" />
+    <Compile Include="Stack.cs" />
+    <Compile Include="StingManipulations.cs" />
+    <Compile Include="StringPermutations.cs" />
+    <Compile Include="UCSD SplayTree\SplayTest1.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
